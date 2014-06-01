@@ -1,0 +1,186 @@
+
+			<!DOCTYPE html>
+			<html>
+				<head>
+				 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+				 	<script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+				 	<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+				 	<link href="http://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+					<link rel="stylesheet" type="text/css" href="maze.css">
+					<script src="http://use.edgefonts.net/fredericka-the-great;love-ya-like-a-sister.js"></script> 
+				 	<script src="maze.js"></script>
+				 	<script>
+				 		
+				 			var path_row = 1;
+				 			var path_col = 1;
+				 			visitedGrid.push({row_num: path_row, col_num: path_col});
+			 			
+				 			var path_row = 2;
+				 			var path_col = 1;
+				 			visitedGrid.push({row_num: path_row, col_num: path_col});
+			 			
+				 			var path_row = 2;
+				 			var path_col = 2;
+				 			visitedGrid.push({row_num: path_row, col_num: path_col});
+			 			
+				 			var path_row = 3;
+				 			var path_col = 2;
+				 			visitedGrid.push({row_num: path_row, col_num: path_col});
+			 			
+				 			var path_row = 4;
+				 			var path_col = 2;
+				 			visitedGrid.push({row_num: path_row, col_num: path_col});
+			 			
+				 			var path_row = 4;
+				 			var path_col = 3;
+				 			visitedGrid.push({row_num: path_row, col_num: path_col});
+			 			
+				 			var path_row = 4;
+				 			var path_col = 4;
+				 			visitedGrid.push({row_num: path_row, col_num: path_col});
+			 			
+				 	</script>
+				</head>
+				<body>
+					<div class="maze_container container">
+						<h2>Can he escape?</h2>
+						<h5 id="myname"> By Pranav Angara </h5>
+						<div class="grid-container">
+							
+								<div class="row row-n">
+									
+										<div class="cell col-md-1" id="r1c1">
+										</div>
+										
+									
+										<div class="cell col-md-1" id="r1c2">
+										</div>
+										
+									
+										<div class="cell col-md-1" id="r1c3">
+										</div>
+										
+									
+										<div class="cell col-md-1" id="r1c4">
+										</div>
+										
+											<script>
+												var row_num = 1;
+												var col_num = 4;
+												dataGrid.push({row: row_num, col: col_num});
+											</script>
+										
+									
+								</div>
+							
+								<div class="row row-n">
+									
+										<div class="cell col-md-1" id="r2c1">
+										</div>
+										
+									
+										<div class="cell col-md-1" id="r2c2">
+										</div>
+										
+									
+										<div class="cell col-md-1" id="r2c3">
+										</div>
+										
+									
+										<div class="cell col-md-1" id="r2c4">
+										</div>
+										
+											<script>
+												var row_num = 2;
+												var col_num = 4;
+												dataGrid.push({row: row_num, col: col_num});
+											</script>
+										
+									
+								</div>
+							
+								<div class="row row-n">
+									
+										<div class="cell col-md-1" id="r3c1">
+										</div>
+										
+											<script>
+												var row_num = 3;
+												var col_num = 1;
+												dataGrid.push({row: row_num, col: col_num});
+											</script>
+										
+									
+										<div class="cell col-md-1" id="r3c2">
+										</div>
+										
+									
+										<div class="cell col-md-1" id="r3c3">
+										</div>
+										
+											<script>
+												var row_num = 3;
+												var col_num = 3;
+												dataGrid.push({row: row_num, col: col_num});
+											</script>
+										
+									
+										<div class="cell col-md-1" id="r3c4">
+										</div>
+										
+									
+								</div>
+							
+								<div class="row row-n">
+									
+										<div class="cell col-md-1" id="r4c1">
+										</div>
+										
+											<script>
+												var row_num = 4;
+												var col_num = 1;
+												dataGrid.push({row: row_num, col: col_num});
+											</script>
+										
+									
+										<div class="cell col-md-1" id="r4c2">
+										</div>
+										
+									
+										<div class="cell col-md-1" id="r4c3">
+										</div>
+										
+									
+										<div class="cell col-md-1" id="r4c4">
+										</div>
+										
+									
+								</div>
+							
+						</div>
+						<div class="btn-row row">
+							<div class="col-md-1 btn-wrapper">
+								<h5 id="myname">Play<button type="button" id="play-button" class="btn btn-primary"><i class="fa fa-play fa-2x"></i></button>
+								</h5>
+							</div>
+						</div>
+					</div>
+					<!-- Modal -->
+					<button id="modal-btn" class="btn" data-toggle="modal" data-target="#video-box" style="display:none">
+  						Launch demo modal
+					</button>
+					<div class="modal fade" id="video-box" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+					  <div class="modal-dialog">
+					    <div class="modal-content">
+					      <div class="modal-body">
+					      	
+					      		<h2>And he's outta here!</h2>
+					      		<img class="exit-meme" src="http://www.funnymeme.com/wp-content/uploads/2014/05/Funny-gifs-this-guy-is-a-pro.gif">
+					      	
+					      </div>
+					    </div>
+					  </div>
+					</div>
+				</body>
+			</html>
+		
