@@ -6,6 +6,8 @@ Not only does the ruby script print the results on the console, but it also rend
 
 The web page presents a nice simulation of the maze using JavaScript.
 
+You can checkout a live demo of my project for a simple test case: (http://example.com/).
+
 Here's a screenshot of my project:
 
 !['Can he escape'](img/maze.png "Can he escape?")
