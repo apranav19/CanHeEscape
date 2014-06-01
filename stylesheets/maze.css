@@ -1,0 +1,75 @@
+body{
+	background-image: url('img/stardust.png');
+}
+
+.modal-content{
+	background-image: url('img/stardust.png');
+}
+.maze_container{
+	margin-bottom: 2%;
+}
+
+.grid-container{
+	margin-top: 2%;
+}
+
+.row-n{
+	margin-bottom: 1%;
+	margin-left: 2%;
+}
+
+.cell{
+	width:75px;
+	height:75px;
+	margin-right: 1%;
+	background-color: #837E7C;
+	border-radius: 50%;
+	text-align: center;
+	font-family: love-ya-like-a-sister, fantasy;
+	padding-top: 10px;
+}
+
+.cell h5{
+	font-size: 15px;
+}
+
+.blocked{
+	background-color: red;
+}
+.visited{
+	background-color: green;
+}
+
+.btn-row {
+	margin-top: 1%;
+	margin-bottom: 2%;
+}
+
+h2{
+	font-family: fredericka-the-great, sans-serif;
+	font-size: 4.5em;
+	color: white;
+	letter-spacing: -3px;
+	word-spacing: 5px;
+}
+
+#myname{
+	margin-left: 20%;
+	font-family: love-ya-like-a-sister, fantasy;
+	font-size: 2em;
+	color: white;
+}
+
+.btn-wrapper{
+	margin-left: 2%;
+}
+
+.exit-meme{
+	margin-left: 15%;
+}
+
+#play-button{
+	background-color: #837E7C;
+	border-radius: 30%;
+	border: none;
+}
