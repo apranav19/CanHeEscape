@@ -1,9 +1,9 @@
 body{
-	background-image: url('img/stardust.png');
+	background-image: url('../img/stardust.png');
 }
 
 .modal-content{
-	background-image: url('img/stardust.png');
+	background-image: url('../img/stardust.png');
 }
 .maze_container{
 	margin-bottom: 2%;
